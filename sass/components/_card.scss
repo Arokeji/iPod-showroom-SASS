@@ -1,0 +1,76 @@
+.card{
+    background-color: $color-dark;
+    color: $color-light;
+    width: 430px;
+    padding: $spacing-normal;
+    margin: $spacing-normal;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+
+    &__header{
+        text-transform: uppercase;
+    }
+
+    &__title{
+        font-size: 30px;
+        @include alltogether;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    &__img{
+        width: 170px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    &__body{
+        margin: 50px 0px;
+    }
+
+    &__subtitle{
+        font-size: 28px;
+        font-weight: lighter;
+    }
+
+    &__description{
+        color: $color-mid;
+    }
+
+    &__footer{
+        @include flexing;
+    }
+
+    &__button{
+        background-color: $color-dark;
+        color: $color-light;
+        border: 1px solid $color-light;
+        padding: 15px;
+        text-transform: uppercase;
+
+        &:hover{
+            background-color: $color-light;
+            color: $color-dark;
+        }
+    }
+       
+    &--reverse{
+        background-color: $color-light;
+        color: $color-dark;
+
+        .card__title, .card__subtitle{
+            color: $color-dark;
+        }
+
+        .card__button{
+            color: $color-dark;
+            background-color: $color-light;
+            border: 1px solid $color-dark;
+    
+            &:hover{
+                background-color: $color-dark;
+                color: $color-light;
+            }
+        }
+    }
+}

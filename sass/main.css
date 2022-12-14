@@ -1,0 +1,78 @@
+.card {
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 430px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.card__header {
+  text-transform: uppercase;
+}
+.card__title {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.card__img {
+  width: 170px;
+  display: block;
+  margin: 0px auto;
+}
+.card__body {
+  margin: 50px 0px;
+}
+.card__subtitle {
+  font-size: 28px;
+  font-weight: lighter;
+}
+.card__description {
+  color: rgb(149, 149, 149);
+}
+.card__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__button {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.card__button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.card--reverse {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.card--reverse .card__title, .card--reverse .card__subtitle {
+  color: #000000;
+}
+.card--reverse .card__button {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.card--reverse .card__button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: monospace;
+  background-color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */

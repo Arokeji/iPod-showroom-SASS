@@ -1,0 +1,10 @@
+@mixin flexing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin alltogether{
+    padding: 0px;
+    margin: 0px;
+}

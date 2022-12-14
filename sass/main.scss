@@ -1,0 +1,12 @@
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'components/card';
+
+body{
+    @include alltogether;
+    @include flexing;
+    padding: $spacing-normal;
+    min-height: 100vh;
+    font-family: $font-main;
+    background-color: $color-light;
+}
